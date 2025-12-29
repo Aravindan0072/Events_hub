@@ -1,0 +1,15 @@
+# --- Secrets (NEVER UPLOAD THESE) ---
+.env
+backend/.env
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+backend/venv/
+backend/events.db  # Don't upload your local database file
+
+# --- Node/React ---
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+.DS_Store

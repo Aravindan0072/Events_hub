@@ -4,7 +4,7 @@ import { Search, Loader2, RefreshCw } from 'lucide-react';
 import { Event } from '../types';
 
 // Updated Categories for Professional Focus
-const CATEGORIES = ['All', 'Technology', 'Business', 'Startup', 'AI & Data', 'Career'];
+const CATEGORIES = ['All', 'Technology', 'Business', 'FREE'];
 
 const Dashboard: React.FC = () => {
   const [events, setEvents] = useState<Event[]>([]);
