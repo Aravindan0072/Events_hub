@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* This creates the frosted glass effect for your cards */
+  .glass {
+    @apply bg-white/70 backdrop-blur-lg border border-white/20 shadow-xl;
+  }
+
+  /* This creates the purple gradient for your Navbar */
+  .purple-gradient {
+    background: linear-gradient(135deg, #7C3AED 0%, #6D28D9 100%);
+  }
+}
+
+/* General improvements for scrolling and fonts */
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Utility to hide scrollbar for the category list (cleaner look) */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
